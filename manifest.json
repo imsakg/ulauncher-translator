@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Translator",
+    "description": "An another translator for uLauncher.",
+    "developer_name": "Mert Sefa AKGÜN",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 1
+    },
+    "preferences": [
+      {
+        "id": "demo_kw",
+        "type": "keyword",
+        "name": "Demo",
+        "description": "Demo extension",
+        "default_value": "dm"
+      }
+    ]
+  }
